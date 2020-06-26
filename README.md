@@ -6,20 +6,20 @@ The Preprocessing and Augmentation pipeline are designed specifically for PROMIS
 The CNN Architecture proposed in our paper:
 ![alt text](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs11548-018-1841-4/MediaObjects/11548_2018_1841_Fig2_HTML.png?as=webp)
 
-# Private Dataset
+## Private Dataset
 Our model achieved **95.11 DSC** on our private dataset when training on both T2 and MRI. 
 ![abc](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs11548-018-1841-4/MediaObjects/11548_2018_1841_Fig3_HTML.jpg?as=webp "On private dataset")
 
-# PROMISE12
+## PROMISE12
 The PROMISE12 dataset contains heterogenous data from 4 different hospitals and institutes. All images were resampled to the spacing of (0.27, 0.27, 2.2) [x, y ,z].
 The training set were split into the training* and validation sets based on the [patient meta-data](https://github.com/minhto2802/dense-multipath-nn-prostate-segmentation/blob/master/src/meta_data.xlsx) to ensure that both the training* and validation sets contain data from all 4 hospitals/institues. The model achieved an average ~89 DSC on the validation set without further post-processing.
 
 Below are a few examples of the model predictions on the validation set (yellow: groundtruth, red: prediction):
-**Case00**
+- **Case00**
 ![case00](https://github.com/minhto2802/dense-multipath-nn-prostate-segmentation/blob/master/src/Case00.png)
-**Case15**
+- **Case15**
 ![case15](https://github.com/minhto2802/dense-multipath-nn-prostate-segmentation/blob/master/src/Case15.png)
-**Case25**
+- **Case25**
 ![Case25](https://github.com/minhto2802/dense-multipath-nn-prostate-segmentation/blob/master/src/Case26.png)
 
 **_To Be Updated_** :+1:
