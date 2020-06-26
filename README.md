@@ -30,7 +30,7 @@ Below are a few examples of the model predictions on the validation set (yellow:
 ![Case25](https://github.com/minhto2802/dense-multipath-nn-prostate-segmentation/blob/master/src/Case26.png)
 
 ## Authour
-[**Minh Nguyen Nhat To](https://github.com/minhto2802)
+* [**Minh Nguyen Nhat To**](https://github.com/minhto2802)
 
 ## Citation
 If any part of this code is used, please give appropriate citation to our paper.
