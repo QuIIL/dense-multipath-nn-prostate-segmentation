@@ -1,6 +1,12 @@
 # Deep Dense Multi-Path Neural Network For Prostate Segmentation In Magnetic Resonance Imaging [(Paper)](https://link.springer.com/article/10.1007/s11548-018-1841-4)
 This repository contains the code for prostate segmentation in MRI using deep dense multi-path neural network. 
 
+Task lists
+- [x] Training and validation
+- [ ] Cascade
+- [ ] Inference on the test set
+- [ ] Resample the test set predictions to their original spacing
+
 The Preprocessing and Augmentation pipeline are designed specifically for PROMISE12 dataset. However, they can be easily extended for using with other datasets.
 
 The CNN Architecture proposed in our paper:
