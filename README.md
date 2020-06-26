@@ -2,6 +2,7 @@
 This repository contains the code for prostate segmentation in MRI using deep dense multi-path neural network. 
 
 ## Task lists
+- [x] Preprocessing
 - [x] Training and validation
 - [ ] Cascade
 - [ ] Inference on the test set
@@ -30,7 +31,48 @@ Below are a few examples of the model predictions on the validation set (yellow:
 - **Case25**  
 ![Case25](https://github.com/minhto2802/dense-multipath-nn-prostate-segmentation/blob/master/src/Case26.png)
 
-## Authour
+## Data Directory
+```
+.
+├── inputs
+│   ├── raw
+│   │   ├── test
+│   │   │   ├── Case00.mhd
+│   │   │   ├── Case00.raw
+│   │   │   ├── Case00_segmentation.mhd
+│   │   │   ├── Case00_segmentation.raw
+│   │   │   ├── ...
+│   │   │   ├── Case29.mhd
+│   │   │   ├── Case29.raw
+│   │   │   ├── Case29_segmentation.mhd
+│   │   │   ├── Case29_segmentation.raw
+│   │   └── training
+│   │   │   ├── Case00.mhd
+│   │   │   ├── Case00.raw
+│   │   │   ├── Case00_segmentation.mhd
+│   │   │   ├── Case00_segmentation.raw
+│   │   │   ├── ...
+│   │   │   ├── Case49.mhd
+│   │   │   ├── Case49.raw
+│   │   │   ├── Case49_segmentation.mhd
+│   │   │   ├── Case49_segmentation.raw
+```
+
+## Dependencies
+```
+gluoncv==0.4.0
+imageio==2.8.0
+imgaug==0.3.0
+matplotlib==3.2.0
+mxboard==0.1.0
+mxnet-cu102mkl==1.6.0
+numpy==1.17.4
+opencv-python==4.2.0.32
+scikit-image==0.16.2
+simpleitk==1.2.4
+```
+
+## Authours
 * [**Minh Nguyen Nhat To**](https://github.com/minhto2802)
 
 ## Citation
