@@ -10,8 +10,11 @@ Our model achieved **95.11 DSC** on our private dataset when training on both T2
 ![abc](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs11548-018-1841-4/MediaObjects/11548_2018_1841_Fig3_HTML.jpg?as=webp "On private dataset")
 
 The PROMISE12 dataset contains heterogenous data from 4 different hospitals and institutes. All images were resampled to the spacing of (0.27, 0.27, 2.2) [x, y ,z].
-The training set were split into the training* and validation sets based on the patient meta-data () to ensure that both the training* and validation sets contain data from all 4 hospitals/institues. The model achieved an average ~89 DSC without further post-processing.
+The training set were split into the training* and validation sets based on the [patient meta-data](https://github.com/minhto2802/dense-multipath-nn-prostate-segmentation/blob/master/src/meta_data.xlsx) to ensure that both the training* and validation sets contain data from all 4 hospitals/institues. The model achieved an average ~89 DSC on the validation set without further post-processing.
 A few examples of the model predictions on the validation set:
+![case00](https://github.com/minhto2802/dense-multipath-nn-prostate-segmentation/blob/master/src/Case00.png)
+![case15](https://github.com/minhto2802/dense-multipath-nn-prostate-segmentation/blob/master/src/Case15.png)
+![Case25](https://github.com/minhto2802/dense-multipath-nn-prostate-segmentation/blob/master/src/Case26.png)
 
-On the PROMISE12 dataset, we first 
-To be updated...
+*To Be Updated*
+
