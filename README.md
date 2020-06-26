@@ -6,6 +6,7 @@ Task lists
 - [ ] Cascade
 - [ ] Inference on the test set
 - [ ] Resample the test set predictions to their original spacing
+- [ ] Usage guideline
 
 The Preprocessing and Augmentation pipeline are designed specifically for PROMISE12 dataset. However, they can be easily extended for using with other datasets.
 
@@ -28,5 +29,24 @@ Below are a few examples of the model predictions on the validation set (yellow:
 - **Case25**  
 ![Case25](https://github.com/minhto2802/dense-multipath-nn-prostate-segmentation/blob/master/src/Case26.png)
 
+## Authour
+[Minh Nguyen Nhat To](https://github.com/minhto2802)
+
 **_To Be Updated_** :+1:
 
+## Citation
+If any part of this code is used, please give appropriate citation to our paper.
+
+BibTex entry:  
+```
+@article{to2018deep,
+  title={Deep dense multi-path neural network for prostate segmentation in magnetic resonance imaging},
+  author={To, Minh Nguyen Nhat and Vu, Dang Quoc and Turkbey, Baris and Choyke, Peter L and Kwak, Jin Tae},
+  journal={International journal of computer assisted radiology and surgery},
+  volume={13},
+  number={11},
+  pages={1687--1696},
+  year={2018},
+  publisher={Springer}
+}
+```
