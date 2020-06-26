@@ -32,8 +32,6 @@ Below are a few examples of the model predictions on the validation set (yellow:
 ## Authour
 [**Minh Nguyen Nhat To](https://github.com/minhto2802)
 
-**_To Be Updated_** :+1:
-
 ## Citation
 If any part of this code is used, please give appropriate citation to our paper.
 
@@ -50,3 +48,5 @@ BibTex entry:
   publisher={Springer}
 }
 ```
+
+**_To Be Updated_** :+1:
