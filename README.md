@@ -14,7 +14,7 @@ The CNN Architecture proposed in our paper:
 ![alt text](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs11548-018-1841-4/MediaObjects/11548_2018_1841_Fig2_HTML.png?as=webp)
 
 ## Private Dataset
-Our model achieved **95.11 DSC** on our private dataset when training on both T2 and MRI. 
+Our model achieved **95.11 DSC** on our private dataset when training on both T2 and ADC. 
 ![abc](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs11548-018-1841-4/MediaObjects/11548_2018_1841_Fig3_HTML.jpg?as=webp "On private dataset")
 
 ## PROMISE12
