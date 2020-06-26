@@ -22,15 +22,15 @@ The PROMISE12 dataset contains heterogenous data from 4 different hospitals and 
 The training set were split into the training* and validation sets based on the [patient meta-data](https://github.com/minhto2802/dense-multipath-nn-prostate-segmentation/blob/master/src/meta_data.xlsx) to ensure that both the training* and validation sets contain data from all 4 hospitals/institues. The model achieved an average ~89 DSC on the validation set without further post-processing.
 
 Below are a few examples of the model predictions on the validation set (yellow: groundtruth, red: prediction):
-- **Case00**  
+- **Case00  
 ![case00](https://github.com/minhto2802/dense-multipath-nn-prostate-segmentation/blob/master/src/Case00.png)
-- **Case15**  
+- **Case15  
 ![case15](https://github.com/minhto2802/dense-multipath-nn-prostate-segmentation/blob/master/src/Case15.png)
-- **Case25**  
+- **Case25  
 ![Case25](https://github.com/minhto2802/dense-multipath-nn-prostate-segmentation/blob/master/src/Case26.png)
 
 ## Authour
-[Minh Nguyen Nhat To](https://github.com/minhto2802)
+**[Minh Nguyen Nhat To](https://github.com/minhto2802)
 
 **_To Be Updated_** :+1:
 
